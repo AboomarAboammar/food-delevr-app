@@ -1,4 +1,4 @@
- mongoose from "mongoose";
+import mongoose from "mongoose";
 const MealSchema = mongoose.Schema({
   title: {
     type: String,
