@@ -91,7 +91,7 @@ const Cataloge = ({ meals =[]}) => {
         {filteredMeals?.length > 0 ? (
           <div className={classes.meals}>
             {filteredMeals?.map((meal) => (
-              // eslint-disable-next-line @next/next/link-passhref
+              
               <Link
                 href={`/meal/${meal?._id}`}
                 key={meal?._id}
