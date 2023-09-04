@@ -34,7 +34,7 @@ export default function Home({meals}) {
 
 export async function getServerSideProps(){
  
-  const{data}=await axios.get("http://localhost:3000/api/meal",{next:{revalidate:10}})
+  const{data}=await axios.get("https://food-delevr-app.vercel.app/api/meal",{next:{revalidate:10}})
  
   return{
     props:{
